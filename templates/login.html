@@ -1,0 +1,34 @@
+<head>
+    <link rel="stylesheet" href="/static/mystyle/login2.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="main">
+
+        <div class="div1">
+            <div class="wrapper">
+                <!-- <h1>Welcome the our django project</h1> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo autem obcaecati magni odio qui facilis voluptates, sed impedit saepe! Iusto! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam dolorem praesentium explicabo, numquam sunt sapiente. Repellendus architecto harum consectetur,</p> -->
+            </div>
+
+        </div>
+        <div class="div2">
+            
+            <div class="form">
+
+                <form method="post" class="loginf">
+                    {% csrf_token %}
+                    {{form.as_p}}
+                    <input type="submit" class="mybtn" value="Login">
+                    <p>Dont have an account? <a href="signup"> Signup</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

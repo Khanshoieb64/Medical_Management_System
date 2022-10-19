@@ -1,0 +1,144 @@
+
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('../static/home.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.wrapper{
+   display: flex;
+   position: relative;
+}
+.wrapper .sidebar{
+    width: 256px;
+    height: 100vh;
+    background-color:#2b6777 ;
+   
+    
+}
+.sidebar{
+    margin-top: 67px;
+    color: black;
+}
+.sidebar li{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.sidebar ul{
+    margin-top: 53px;
+    
+}
+.sidebar ul li a button{ 
+    font-size: 21px;
+}
+
+.content{
+    margin-top: 90px;
+}
+.table-wrapper{
+    max-height: 70%;
+    overflow-y: scroll;
+    width: 1275px;
+}
+
+
+.table-wrapper::-webkit-scrollbar{
+    width: 15px;
+    
+}
+.table-wrapper::-webkit-scrollbar-track{
+    background-color: #c8d8e4;
+    border-radius: 20px;
+}
+.table-wrapper::-webkit-scrollbar-thumb{
+    background-color: #2b6777;
+    border-radius: 23px;
+    border:  3px solid transparent;
+    background-clip: content-box;
+}
+.table-wrapper{
+    box-shadow: 1px 4px 16px black;
+    background-color: #c8d8e4;
+}
+
+
+
+.content form input{
+    width: 800px;
+}
+.storename{
+    
+    background-color: #c8d8e4;
+    text-align: center;
+    padding: 10px 10px ;
+    text-shadow: 1px 2px 6px black;
+    
+    
+}
+
+.sidebar button{
+    color: white;
+    font-weight: bold;
+    outline: none;
+    text-decoration: none;
+}
+.sidebar button:hover{
+    color: white;
+    outline: #c8d8e4;
+    
+}
+.content form button{
+    color: #2b6777;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #2b6777;
+}
+.content form button:hover{
+    background-color:#2b6777;
+    color: white;
+    border-color: transparent;
+    
+}
+
+.storename img{
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar ul li h3{
+    color: whitesmoke;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.logo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo ul{
+    display: flex;
+    justify-content: center;
+}
+.logo ul li a{
+    color: white;
+    padding-right: 10px;
+    font-size: 1.5rem;
+    position: relative;
+    top: 300px;
+}
+
+.logo ul li a:hover{
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+

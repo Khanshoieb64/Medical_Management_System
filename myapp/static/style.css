@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+   display: flex;
+   position: relative;
+   
+}
+.wrapper .sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(179 188 239);
+    
+}
+.sidebar li{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.content form input{
+    width: 800px;
+}
+.storename{
+    border: 2px solid black;
+    background-color: rgb(146, 139, 182);
+    text-align: center;
+    padding: 10px 10px ;
+}

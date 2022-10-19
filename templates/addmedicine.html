@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="/static/mystyle/addmedi1.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+
+<div class="forms">
+
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" class="mybtn" id="subbtn" value="save">
+    </form>
+    <a href="../home"><button>Back</button></a>
+</div>
+

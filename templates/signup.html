@@ -1,0 +1,11 @@
+<head>
+    <link rel="stylesheet" href="/static/mystyle/signuppg1.css">
+</head>
+{% include 'msg.html' %}
+<div class="forms">
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit"  value="Signup" class="mybtn">
+    </form>
+</div>

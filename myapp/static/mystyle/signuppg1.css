@@ -1,0 +1,40 @@
+body{
+    /* background-color: #2b6777; */
+    background-image: url('../signup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forms{
+    display: inline-block;
+    position: relative;
+    top: 22%;
+    left: 40%;
+    padding: 30px 84px 26px 84px;
+    background-color: #c8d8e4;
+    box-shadow: 7px 8px 72px #79a0a9;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.name,.username,.pass,.email{
+    width: 250px;
+    height: 50px;
+    background-color:hsl(191deg 33% 89%);;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    
+}
+
+::placeholder{
+    text-indent: 10px;
+    
+}
+
+.forms form .mybtn{
+    width: 250px;
+    height: 50px;
+    background-color: #2b6777;
+    border: none;
+    color: white;
+}
